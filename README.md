@@ -3,27 +3,19 @@
 DSC160 Data Science and the Arts - Midterm Project Repository - Spring 2020
 
 Project Team Members: 
-- Firstname Lastname1, name1@ucsd.edu
-- Firstname Lastname2, name2@ucsd.edu
-- Firstname Lastname3, name3@ucsd.edu
-- Firstname Lastname4, name4@ucsd.edu
-- Firstname Lastname5, name5@ucsd.edu
+- Cameron Brody, crbrody@ucsd.edu
+- Richard Duong, r3duong@ucsd.edu
+- Thomas Evans-Barton, tevansba@ucsd.edu
+- Brian Cheng, brc042@ucsd.edu
 
 ## Abstract
 
 (10 points) 
 
-For the project proposal, please write a short abstact addressing the questions below. You should replace the entire contents of this section with one to two paragraphs addressing the following:
+	For our project, we’re taking a look at how genres of music can change over time. With a classifier trained on music of a certain genre from a number of certain time periods, e.g 70’s Rock and Roll, we can try to look at music from the same genre but a different time period. With this, we can try to analyze certain songs, albums, and artists within the context of musical trends of the time. If a song is classified incorrectly, what features cause that? Additionally, we can observe how different genres change at different rates by looking at the features over time. Do the features in Hip-Hop change faster or slower over time when compared with Pop?
+	As for data, we can use any number of songs from different genres. Ideally, we can download however many songs we need per genre and time period so that we can populate as many genres as possible. Spotify’s API would allow us to access a huge number of songs to analyze, and provides built-in methods for extracting key features for each song. This includes acousticness, danceability, energy, etc. and will be the most important aspects that we measure for each song. These will be the values we use in our model.
+	This project is a sort of expansion of Exercise 2 with similar techniques, but we plan on increasing the scope by applying it with two variables - genre and time period. I predict that some genres definitely will have more change over time than others. We hypothesize that something like classical probably won’t change too much due to the grand scope of the genre, but hip-hop has aged tremendously since its inception until now. I also predict that some standout artists might be classified as being from a different time period. Many artists use an old-fashioned style intentionally, which might throw off the prediction.
 
-- What is the data set that you are going to analyze?
-- What is your research question? 
-- What is your hypothesis about the results? 
-- What features of the data will you use to address your question? 
-- What techniques and software tools will you use to extract these features?
-- What analytic techniques will you use?
-- What forms will your results take? (graphs, charts, images, sonification, Wordles, etc)
-- How are you expanding on topics we have covered in class? 
-- Why is it interesting? (personally, culturally, politically, other)
 
 ## Data
 
