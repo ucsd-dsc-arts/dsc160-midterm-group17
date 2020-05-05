@@ -18,15 +18,17 @@ if __name__ == '__main__':
     if token:
         sp = spotipy.Spotify(auth=token)
         track_to_analyze = sp.audio_features("spotify:track:1i6N76fftMZhijOzFQ5ZtL")
-        #track_sections = track_to_analyze['sections']
-        #song_tempos = []
-        #song_keys = []
-        #song_time_signature = []
-        #song_loudness = []
-        #for s in track_sections:
-        #    song_tempos.append(s["tempo"])
-        #    song_time_signature.append(s["time_signature"])
-        #    song_loudness.append(s["loudness"])
+        #import playlist
+
+        #iterate through classifier playlist (make sure to know how decades are segmented and do them separately)
+            #for each song, gather features
+
+        #make classifier from features
+
+        #iterate through testing playlist
+            #for each song, gather features and classify
+
+        #show results
 
         print(sp.track("spotify:track:1i6N76fftMZhijOzFQ5ZtL")['preview_url'])
         #downloads 30 second clip of requested file at local path
