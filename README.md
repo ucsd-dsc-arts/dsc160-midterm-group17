@@ -1,4 +1,4 @@
-# Project Title
+# Rock Through The Ages
 
 DSC160 Data Science and the Arts - Midterm Project Repository - Spring 2020
 
@@ -67,6 +67,10 @@ The subsequent paragraphs could address questions including:
 
 ## Team Roles
 
+Cameron:
+Richard:
+Thomas:
+Brian:
 Provide an account of individual members and their efforts/contributions to the specific tasks you accomplished.
 
 ## Technical Notes and Dependencies
