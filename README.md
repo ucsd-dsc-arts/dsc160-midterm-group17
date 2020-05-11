@@ -65,12 +65,20 @@ The subsequent paragraphs could address questions including:
 - How do your results relate to broader social, cultural, economic political, etc., issues? 
 - In what future directions could you expand this work?
 
+The classifier we made was able to correctly classify ~37% of the testing songs we selected. This is quite a bit stronger than a naive guessing method, which would be 1/7, ~14%, since we have 7 decades (or labels) in our classifier. 
+
+ON
+
 ## Team Roles
 
-Cameron:
+Cameron: 
+
 Richard:
+
 Thomas:
+
 Brian:
+
 Provide an account of individual members and their efforts/contributions to the specific tasks you accomplished.
 
 ## Technical Notes and Dependencies
