@@ -47,11 +47,11 @@ Additionally, all graphs included in our project were created in our notebook.
 Our classifier was made using a Logistic Regression classifier, and was able to successfully predict ~37% of the songs we tested. Since we have 7 decades as labels, a naive classifier randomly guessing the decade would get ~14% correct. This means that our classifier was significantly more accurate than a random guess, but wasn’t entirely accurate with its prediction. So it seems that Rock and Roll has changed a fair bit over the decades, but not enough so that our classifier would be able to predict with too much accuracy.
 When looking deeper into how the classifier performed on the test set, we can see that it performed very well on certain decades, while not performing nearly as well on others:
 
-![alt text] (https://github.com/ucsd-dsc-arts/dsc160-midterm-group17/blob/master/figures/ClassifierAccuracy.png?raw=true)
+https://github.com/ucsd-dsc-arts/dsc160-midterm-group17/blob/master/figures/ClassifierAccuracy.png
 
 From this visualization, it is evident that the classifier does very well on songs from the 1980s, fairly well with songs from the 1950s, 70s, and 00s, and very poorly on songs from the 1960s and 1990s. This is a curious revelation, however, some of these issues can be explained when examining the (normalized) variables that we were feeding into our classifier:
 
-![alt text] (https://github.com/ucsd-dsc-arts/dsc160-midterm-group17/blob/master/figures/VariablesVisualization.png?raw=true)
+https://github.com/ucsd-dsc-arts/dsc160-midterm-group17/blob/master/figures/VariablesVisualization.png
 
 What we can see here is the normalized attributes of each decade in the training set. What this shows us is that it makes sense as to why the 1970s had reasonably good classification, due to its very distinct sound profile. It makes a little less sense as to why 1980s classification was so consistent, however, it does have a fairly unique danceability number as well as a unique ‘instrumentalness’ and tempo. For the 1960s and 1990s on the other hand, it is understandable as to why these decades were difficult to classify, as the majority of their sound profile variables hovered just around the average, causing it to lack a certain level of distinctness.
 
